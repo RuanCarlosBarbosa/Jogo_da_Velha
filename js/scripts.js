@@ -41,8 +41,8 @@ for(let i = 0; i < boxes.length; i++)/*vai chamar todas as boxes*/{
 }
 
 // 2 PLAYERS OU IA
-for(let i = 0; i < boxes.length; i++){
-    buttons[i].addEventListener("click", function(){
+for(let i = 0; i < buttons.length; i++){
+    buttons[i].addEventListener("click", function(){ 
         secondPlayer = this.getAttribute("id");
 
 for(let j = 0; j < buttons.length; j++){
